@@ -29,7 +29,7 @@ var moneda = Math.random() < 0.5? "cara": "sello";
 
 // GENERADOR DE CONTRASEÑAS, Logica: 1. Crea un array con letras, números y símbolos 2. Usa un bucle for para elegir al azar 10 caracteres 3. Une todo con .loin("")
 
-var letras = "abcdefghijklmnopqrstiuwxyz";
+var letras = "abcdefghijklmnopqrstiuwxyz"; //:)
 var numeros = "123456789";
 var simbolos = "!#$%&/()=?¡*¨[]{}";
 var letrasMayusculas = letras.toUpperCase();
