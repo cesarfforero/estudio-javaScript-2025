@@ -1,0 +1,213 @@
+// console.log("hola mundo")
+// var suma = 2 +2 
+// console.log(suma)
+// let multiplicacion = 3 * 2
+// console.log(multiplicacion)
+// const multiplicacion2 = (a,b)=>{
+//     return a * b;
+// };
+// console.log(multiplicacion2(4,5))
+
+// var age = 13
+// age = 14
+// console.log(age);
+
+// var secondsInMinute = 60;
+// var minutesInHour = 60;
+// var secondsInHour = secondsInMinute * minutesInHour;
+
+// var hourinDay = 24;
+// var secondsinDay = secondsInHour * hourinDay;
+// console.log(secondsinDay + " " + "seconds in a day")
+
+// var daysInYear = 365;
+// var secondsinYear = secondsinDay * daysInYear;
+// console.log(secondsinYear + " " + "seconds in a year")
+
+// var age = 26;
+// var secondsinAge = secondsinYear * age;
+// console.log(secondsinAge + " " + "seconds lived")
+
+// var hourinDay = 24;
+
+// var hoursinYear = hourinDay * daysInYear;
+// console.log(secondsinYear + " " + " in a year")
+
+// var daysInYear = 365;
+// var age = 26;
+// var daysLived = age * daysInYear
+// console.log(daysLived + " " + "days lived")
+
+// var highfives = 0;
+// highfives ++;
+// highfives ++;
+// highfives ++;
+
+// console.log(highfives);
+
+// var x = 10;
+// x = x + 5;
+
+// var x = 10;
+// x +=7;
+// x -=3;
+
+// console.log(x);
+
+// var nombre = "felipe";
+// var conector = "es";
+// var adjetivo = "el mejor !";
+// var palabraCompleta = nombre + " "+ conector +" "+ adjetivo
+
+// console.log(palabraCompleta)
+
+// var script = "script".slice(1,5)
+// console.log(script)
+
+// var saludar = "hELlo THERE, hOW ARE yOu doINg?".toUpperCase
+// console.log(saludar)
+
+// const saludar = (nombre) =>{
+//     console.log("¡Hola" +" "+ `${nombre}` + "!")
+// };
+
+// saludar("felipe");
+
+// const presentacion = (pareja) => {
+//     console.log("mucho gusto mi nombre es Felipe y vine con" +" "+ `${pareja}` )
+// };
+
+// presentacion("Laura");
+
+// const ejercicio = (palabra) =>{
+//     console.log("hELlo THERE, hOW ARE yOu doINg?");
+//     return 
+// };
+
+var saludar = "hello world";
+var name = "my name is Felipe";
+
+var presentacion = saludar + " " + name 
+
+var prueba = "longitud";
+
+var codeword1 = "imagine";
+var codeword2 = "magic ";
+var codeword3 = "goal";
+var codeword4 = "goal";
+var codeword5 = "goal";
+var codeword6 = "down";
+var answer = (codeword1[0] + codeword2[0] + " " + codeword3[0] + codeword4[1] + codeword5[1] + codeword6[0])
+
+var longString = "Felipe is the greatest of all time, no doubt about".slice(0,23);
+
+var saludar = "hey there".toUpperCase();
+
+var despedir = "BYE IM GOING HOME".toLowerCase();
+
+
+// 1)
+var string = "hELLO THERE, hOW ARE yOu doINg?"
+var lowerCaseString = string.toLowerCase();
+var firstCharacter = lowerCaseString[0];
+var capitalLetter = firstCharacter.toUpperCase();
+var restOfString = lowerCaseString.slice(1);
+var completeString = capitalLetter + restOfString;
+
+var completeString2 = string[0].toUpperCase() + string.slice(1).toLowerCase();
+
+
+
+// 2)
+var FelipeIsTheGreatest = true;
+
+var breakfast = true;
+var lunch = true;
+var dinner = false;
+var eatWell = breakfast && lunch || dinner;
+
+var todayisFriday = true;
+var day = !todayisFriday;
+
+var height = 50;
+var heightRestriction = 50;
+var allowRunning = height <= heightRestriction;
+
+var mySecretNumber = 5;
+var chicoGuess = 5;
+var guess = mySecretNumber === chicoGuess
+
+var number = 5;
+var string = "5";
+
+var equal = number == string
+
+var age = 13;
+var accompanied = false; 
+var canSeeTheMovie = age >= 13 || age > 1 && accompanied;
+
+
+var undefined = null;
+
+var age = ["21","22","23","24"];
+var newage = "20";
+
+age.unshift (newage);
+
+var names = ["pipe","andres", "camilo",];
+var newName = "Santiago";
+
+names.unshift(newName)
+
+var lastName = ["Forero", "arteaga"];
+var newLastName = "Saenz";
+
+lastName.push(newLastName)
+
+var ageAndLastName = age.concat(lastName);
+
+
+var scientificBooks = ["biology", "chemestry", "mitocrondria"];
+var historyBooks = ["Afro", "american", "russian", "latino"];
+var musicBooks = ["jazz", "cuban", "salsa"];
+
+var allBooks = scientificBooks.concat(historyBooks,musicBooks);
+
+var findPositionOfBooks = scientificBooks.indexOf("mitocrondria");
+
+var stringHistoryBooks = historyBooks.join(", ");
+
+var landmarks =[];
+landmarks.push("My house");
+landmarks.push("front park");
+landmarks.push("Exito Colina");
+landmarks.push("carrera 9na");
+landmarks.push("hospital Santa Fe");
+landmarks.push("la casita del amor");
+
+landmarks.pop("la casita del amor");
+landmarks.pop("hospital Santa Fe");
+landmarks.pop("");
+landmarks.pop();
+landmarks.pop();
+landmarks.pop();
+
+var random = Math.random();
+var random2 = Math.random() * 5;
+
+var random3 = Math.floor(Math.random());
+var random3 = Math.floor(Math.random()*5);
+var random3 = Math.floor(Math.random()*5);
+
+var cities = ["Medellin", "Cali", "Cartagena", "Bogota",]
+var randomIndex = Math.floor(Math.random() * cities.length );
+var randomCities = cities[randomIndex]
+
+
+console.log(randomCities);
+
+
+
+
+
+
