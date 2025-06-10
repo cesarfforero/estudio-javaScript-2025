@@ -203,8 +203,27 @@ var cities = ["Medellin", "Cali", "Cartagena", "Bogota",]
 var randomIndex = Math.floor(Math.random() * cities.length );
 var randomCities = cities[randomIndex]
 
+// console.log(randomCities);
 
-console.log(randomCities);
+//////////////////////////////////////////////////////////
+// Chapter 4 Objects
+var cat = {
+    "legs": 4,
+    "name": "harmony",
+    "color": "white"
+};
+
+var dog = {
+    legs: 4,
+    name: "raul",
+    color: "brown",
+}
+
+var house = {};
+house.part= 3;
+
+
+console.log(house)
 
 
 
