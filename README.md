@@ -26,6 +26,20 @@ Este repositorio documenta mi proceso de aprendizaje diario en JavaScript desde 
 📄 Archivo: `dia2-generador-contraseñas.js`
 
 ---
+### Día 3 – Objetos y Arrays
+
+- Creación de objetos
+- Agregar y eliminar propiedades
+- Manipulación de arrays con `.push()`, `.pop()`, `.shift()`, `.unshift()`
+- Diferencias entre arrays y objetos
+---
+### Día 4: 
+- Arrays de objetos anidados.
+- Selección aleatoria con Math.random() y Math.floor().
+- Actualización dinámica de propiedades.
+- Eliminación de objetos usando splice().
+- Primer simulador básico de inventario y premios.
+---
 
 ## ⚙️ Cómo ejecutar los archivos
 
