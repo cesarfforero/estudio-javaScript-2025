@@ -222,8 +222,73 @@ var dog = {
 var house = {};
 house.part= 3;
 
+var anna = { name:"Anna", age:11, luckyNumbers:[2,4,8,16]};
+var dave = { name:"Dave", age:10, luckyNumbers:[3.9,40]};
+var kate = { name:"Kate", age:9, luckyNumbers:[1,2,3]};
 
-console.log(house)
+var friends = [anna,dave,kate]
+
+//console.log(friends[0])
+
+var owedMoney = {};
+owedMoney.Jimmy = 5;
+owedMoney["Lisa"] = 10;
+owedMoney.Jimmy += 3;
+owedMoney.Lisa = owedMoney.Lisa + 3;
+
+//console.log(owedMoney)
+
+var movies = {
+    "Harry Potter": {
+        realeseDate: 2005,
+        duration: 120,
+        actors: ["Harry", "Patrick", "Emma"],
+        format: "DVD",
+    },
+    avatar: {
+        realeseDate: 2014,
+        duration: 120,
+        actors: ["hang", "Phill", "jason"],
+        format: "DVD",
+    },
+}
+
+movies.cars = {
+    realeseDate: 2006,
+        duration: 117,
+        actors: ["El rayo Mc queen", "Lisa", "Mate"],
+        format: "Blue Ray",
+}
+
+var frase = movies["cars"].actors[0]
+
+//console.log("yo soy el", frase)
+
+//console.log(Object.keys(movies))
+
+var scores = {
+    César: 0,
+    Andres:0,
+    Campo:0,
+    "Juan Pablo": 0,
+    Sebastian:0,
+}
+
+scores.César += 2,
+scores.Andres += 1,
+scores["Juan Pablo"] += 1,
+scores.Sebastian += 1,
+scores.Campo += 1;
+
+//console.log(scores)
+
+var myCrazyObject = {
+    "name": "A ridiculous object",
+    "some array": [7,9, {purpose: "confusion", number: 123}, 3.3],
+    "random animal": "banana Shark"
+};
+
+console.log(myCrazyObject["some array"][2].number);
 
 
 

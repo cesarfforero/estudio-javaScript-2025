@@ -40,6 +40,15 @@ Este repositorio documenta mi proceso de aprendizaje diario en JavaScript desde 
 - Eliminación de objetos usando splice().
 - Primer simulador básico de inventario y premios.
 ---
+### Día 5:
+- Profundización en arrays de objetos.
+- Uso de métodos `.slice()`, `.join()`, `.push()`, `.splice()`, `.shift()`, `.unshift()`.
+- Simulación de ventas y control de stock.
+- Filtrado de información usando lógica condicional.
+- Creación de nuevos arrays a partir de condiciones.
+- Extracción y visualización de datos con `.join()`.
+- Práctica de lógica real para estructuras tipo inventario, calificaciones y membresías.
+---
 
 ## ⚙️ Cómo ejecutar los archivos
 
