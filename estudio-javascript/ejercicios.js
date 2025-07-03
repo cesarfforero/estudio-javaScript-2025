@@ -288,10 +288,64 @@ var myCrazyObject = {
     "random animal": "banana Shark"
 };
 
-console.log(myCrazyObject["some array"][2].number);
+// console.log(myCrazyObject["some array"][2].number);
+
+// var names = "Felipe";
+// console.log("hello" + " "+ names);
+// if (names.length > 7){
+//     console.log("Wow, you have a really long name !")
+// } else{
+//     console.log("Your name is not very long")
+// }
+
+// var dadName = "César";
+// var momName = "Rosse";
+// var name3 = "Felipe";
+// var myName = "Felipe";
+// if (myName === name3){
+//     console.log("Hello me")
+// } else if (dadName === name3){
+//     console.log("Hello Father")
+// } else if (momName === name3){
+//     console.log("Hello Mother")
+// }else {console.log("Hello Stranger")}
 
 
+// 1. Crea un array colores con estos valores:
+var colores = ["rojo", "azul", "verde", "amarillo", "morado"]
+for (var i = 0; i<colores.length; i++){
+    // console.log(colores[i].toUpperCase())
+}
+
+// 2. Crea un array numeros con estos valores:
+var numeros = [10,20,30,40,50];
+var suma = 0;
+for (var i = 0; i < numeros.length; i++){
+suma += numeros[i];
+} console.log("La suma total es: ", suma)
+    
 
 
+// 3. Crea un array frases con estas frases:
+var frases = ["hola mundo", "soy felipe", "amo programar"]
+for (var i = 0; i < frases.length; i++){
+    //console.log(frases[i].length)
+}
 
+// 4. Crea un array nombres con estos valores:
+var nombres= ["andres", "ana", "camilo", "carlos"]
+    for (var i = 0; i <nombres.length; i++ ){
+        if (nombres[i].charAt(0) === "c"){
+            //console.log(nombres[i])
+        }
+    }
+
+// 5. Crea un array emails con estos valores:
+var emails = ["felipe@gmail.com", "alzar@yahoo.com", "cracktotal@outlook.com"];
+var usuarios = [];
+
+for (var i = 0; i< emails.length; i++){
+    usuarios.push(emails[i].split("@")[0])
+}
+console.log(usuarios)
 
