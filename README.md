@@ -49,6 +49,13 @@ Este repositorio documenta mi proceso de aprendizaje diario en JavaScript desde 
 - Extracción y visualización de datos con `.join()`.
 - Práctica de lógica real para estructuras tipo inventario, calificaciones y membresías.
 ---
+### día 8:
+20 ejercicios prácticos para practicar:
+  - `if`, `else if`, `else`
+  - Operadores lógicos
+  - Comparación de cadenas (strings) ignorando mayúsculas/minúsculas
+  
+---
 
 ## ⚙️ Cómo ejecutar los archivos
 

@@ -347,5 +347,16 @@ var usuarios = [];
 for (var i = 0; i< emails.length; i++){
     usuarios.push(emails[i].split("@")[0])
 }
-console.log(usuarios)
+//console.log(usuarios)
+
+var sheepCounted = 0;
+// while (sheepCounted < 10){
+//     console.log("i have counted " + sheepCounted + " sheeps !")
+// }
+console.log("zzzzzzzzzzzzzz")
+
+var animals = ["cat", "dog", "fish", "elephant"];
+for (var i = 0; i < animals.length; i++){
+    console.log("awesome " + animals[i]);
+}
 
