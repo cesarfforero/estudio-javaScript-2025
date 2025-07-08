@@ -57,6 +57,24 @@ Este repositorio documenta mi proceso de aprendizaje diario en JavaScript desde 
   
 ---
 
+### día 9
+
+20 ejercicios básicos para reforzar el manejo de:
+  - Strings
+  - Numbers
+  - Booleans
+  - Arrays
+  - Uso de métodos básicos como:
+    - `.length`
+    - `.toUpperCase()`
+    - `.replace()`
+    - `.push()`
+    - Operadores como `%` para saber si un número es par o impar
+- Preparación para lógica más avanzada:
+  - Comparaciones
+  - Condicionales
+
+--- 
 ## ⚙️ Cómo ejecutar los archivos
 
 Necesitas tener instalado [Node.js](https://nodejs.org)
