@@ -75,6 +75,28 @@ Este repositorio documenta mi proceso de aprendizaje diario en JavaScript desde 
   - Condicionales
 
 --- 
+
+### día 10
+
+ # Hangman Game Practice
+
+This project is a simple implementation of the classic Hangman game using vanilla JavaScript.
+
+## Features
+
+- Random word selection from a predefined array.
+- Prompt-based guessing system.
+- Input validation to ensure single-letter entries.
+- Tracks and displays player progress.
+- Ends the game when all letters are guessed or the player cancels.
+
+## Technologies Used
+
+- HTML
+- JavaScript (no libraries or frameworks)
+
+---
+
 ## ⚙️ Cómo ejecutar los archivos
 
 Necesitas tener instalado [Node.js](https://nodejs.org)
